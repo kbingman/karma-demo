@@ -1,0 +1,26 @@
+{
+  "name": "js-testing-demo",
+  "version": "0.0.1",
+  "description": "Basic Mocha testing demo",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "start": "static app",
+    "test": "karma start --single-run --browsers Chrome"
+  },
+  "author": "Keith Bingman",
+  "license": "MIT",
+  "devDependencies": {
+    "hogan.js": "^3.0.2",
+    "karma": "^0.12.24",
+    "karma-chai": "^0.1.0",
+    "karma-chrome-launcher": "^0.1.5",
+    "karma-mocha": "^0.1.9",
+    "karma-phantomjs-launcher": "^0.1.4",
+    "karma-spec-reporter": "0.0.13",
+    "mocha": "^2.0.1",
+    "node-static": "^0.7.6"
+  }
+}
